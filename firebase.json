@@ -1,0 +1,19 @@
+{
+"hosting": {
+  "public": "public",
+  "redirects": [
+    {
+      "source": "/old-path",
+      "destination": "/new-path",
+      "type": 301
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "**",
+      "destination": "/index.html"
+    }
+  ]
+}
+
+}
